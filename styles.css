@@ -1,0 +1,49 @@
+body {
+    background-color: #e5e5f7;
+    opacity: 1;
+    background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#ffc6f2 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #ffc6f2 2px, #e5e5f7 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+.flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background: rgb(254, 174, 235);
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: white;  
+    text-align: center; 
+    width: 50%;
+    border-radius: 10px;
+}
+
+.poem-form {
+    margin-top: 2em;
+    padding: 1em 0;
+    background: white;
+    width: 25%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.poem {
+    background: white;
+    width: 60%;
+    text-align: center;
+    opacity: 0;
+    margin-top: 2em;
+    padding: 0 1em;
+    border-radius: 10px;
+}

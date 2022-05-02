@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Random Quotes</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h1 class="header">
+            <i>Random Quote Generator</i>
+        </h1>
+    </header>
+    <!--Instructions-->
+    <div class="flex-justify-center">
+        <div class="instructions">
+            <h3>
+                <b>Instructions</b>
+            </h3>
+            <p>
+                Select your desired genre, click the submit button, and a random quote from our library will
+                generate!
+            </p>
+        </div>
+    </div>
+    <!--Input Form-->
+    <div class="flex-justify-center">
+        <div class="poem-form">
+            <select id="genres" name="genres">
+                <option value="select" selected disabled>Select a Genre</option>
+                <option value="love">Love</option>
+                <option value="nature">Nature</option>
+            </select>
+            <br>
+            <button onclick="generate()" style="margin-top: 1em;">Submit</button>            
+        </div>
+    </div>
+    <!--Poem-->
+    <div class="flex-justify-center">
+        <div class="poem" id="poem">
+            <p id="poem-generated"></p>
+            <h4 id="poem-author"></h4>           
+        </div>
+    </div>
+</body>
+</html>
